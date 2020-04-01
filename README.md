@@ -10,3 +10,18 @@ Create a single object named `slideshow` that represents the data and functional
  5. Otherwise, log "End of slideshow";
 4. A `prevPhoto()` function that does the same thing, but backwards.
 5. A function `getCurrentPhoto()` that returns the current photo from the list.
+
+
+Next day additional Work. 
+
+1. Create a branch off of your existing slideshow
+  (For your branch use the naming convention `async_YOUR_NAME_HERE` )
+2. Going back to our slideshow object, let's add some functionality.
+3. Create an empty property named playInterval
+4. A play() function that moves to the next photo ever 2000ms until the end.
+    (Tip - use playInterval = setInterval(fn,ms).)
+5. A pause() function that stops the slideshow
+    (Tip - use clearInterval(playInterval))
+6. Automatically pause the slideshow if it gets to the end of the photolist while      playing. 
+
+7. Merge your branches together and submit the link to the github repo below
